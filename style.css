@@ -1,0 +1,29 @@
+
+
+#header-container {
+    display: block;
+    font-size: 72px;
+    height: 100px;
+    min-width: 700px;
+    text-align: center;
+}
+
+#title {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 72px;
+    font-family:cursive;
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+/* Slide Managment*/
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0%;
+} 
